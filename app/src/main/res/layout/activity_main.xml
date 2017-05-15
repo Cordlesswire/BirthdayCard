@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user2.birthdaycard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/cakes"/>
+
+
+    <TextView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:padding="6dp"
+        android:text="Happy"
+        android:textColor="#D50000"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:padding="6dp"
+        android:text="Birthday"
+        android:textColor="#FF1744"
+        android:layout_toRightOf="@id/happy"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:padding="8dp"
+        android:text="Love : Junior"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FF8A80"
+        android:textStyle="italic"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/premilla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:padding="7dp"
+        android:text="Premilla"
+        android:layout_above="@id/love"
+        android:layout_alignParentRight="true"
+        android:textColor="#FF5252"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+
+
+
+</RelativeLayout>
